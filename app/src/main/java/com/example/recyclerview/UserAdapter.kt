@@ -7,7 +7,6 @@ import com.example.recyclerview.databinding.UserCardItemBinding
 import com.example.recyclerview.models.User
 
 class UserAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
-
     private var users: List<User> = ArrayList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
@@ -31,5 +30,4 @@ class UserAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     fun setUserData(users: ArrayList<User>) {
         this.users = users
     }
-
 }

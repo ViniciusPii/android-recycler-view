@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RecyclerView</string>
+    <string name="home_title">Lista de Usuários de testes</string>
 </resources>
